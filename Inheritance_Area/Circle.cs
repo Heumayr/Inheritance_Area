@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance_Area
 {
-    internal sealed class Circle : Forms
+    public sealed class Circle : Forms
     {
         public Circle(double radius, string name) : base(name, FormType.Circle)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance_Area
 {
-    internal sealed class Rectangle : Forms
+    public sealed class Rectangle : Forms
     {
         public Rectangle(double length, double width, string name) : base(name, FormType.Rectangle)
         {

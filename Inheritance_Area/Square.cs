@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance_Area
 {
-    internal sealed class Square : Forms
+    public sealed class Square : Forms
     {
         public Square(double length, string name) : base(name, FormType.Square)
         {

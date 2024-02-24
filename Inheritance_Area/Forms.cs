@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance_Area
 {
-    internal abstract class Forms
+    public abstract class Forms
     {
         public Forms(string name, FormType type)
         {

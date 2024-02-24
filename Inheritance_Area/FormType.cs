@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance_Area
 {
-    internal enum FormType
+    public enum FormType
     {
         Square = 3,
         Circle = 2,
